@@ -1,0 +1,11 @@
+Question: Is JAVA a Pass by Value or a Pass by Reference programming language?
+Answer: JAVA is a pass-by-value language, meaning it passes a copy of the value.
+
+Question: Try to add a method addDigitalVideoDisc which allows to pass an arbitrary number of arguments for dvd. Compare to an array parameter. What do you prefer in this case? use addDigitalVideoDisc(DigitalVideoDisc...dvds);
+Answer: Using DigitalVideoDisc... dvds is simpler and more flexible than an array parameter.
+
+Question: After the call of swap(jungleDVD, cinderellaDVD) why does the title of these two objects still remain?
+Answer: The method swaps copies of the references, so the original objects in main are unaffected.
+
+Question: After the call of changeTitle(jungleDVD, cinderellaDVD.getTitle()) why is the title of the JungleDVD changed?
+Answer: Both the copied reference and the original reference point to the same object, so the title changes.
